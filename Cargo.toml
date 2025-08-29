@@ -1,0 +1,35 @@
+[package]
+name = "boost_accumulators"
+description = "Boost C++ library boost_accumulators packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_accumulators"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_accumulators"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+boost_array = { version = "0.1.0", path = "../boost_array" }
+boost_assert = { version = "0.1.0", path = "../boost_assert" }
+boost_circular_buffer = { version = "0.1.0", path = "../boost_circular_buffer" }
+boost_concept_check = { version = "0.1.0", path = "../boost_concept_check" }
+boost_config = { version = "0.1.0", path = "../boost_config" }
+boost_core = { version = "0.1.0", path = "../boost_core" }
+boost_fusion = { version = "0.1.0", path = "../boost_fusion" }
+boost_iterator = { version = "0.1.0", path = "../boost_iterator" }
+boost_mpl = { version = "0.1.0", path = "../boost_mpl" }
+boost_numeric_conversion = { version = "0.1.0", path = "../boost_numeric_conversion" }
+boost_parameter = { version = "0.1.0", path = "../boost_parameter" }
+boost_preprocessor = { version = "0.1.0", path = "../boost_preprocessor" }
+boost_range = { version = "0.1.0", path = "../boost_range" }
+boost_serialization = { version = "0.1.0", path = "../boost_serialization" }
+boost_static_assert = { version = "0.1.0", path = "../boost_static_assert" }
+boost_throw_exception = { version = "0.1.0", path = "../boost_throw_exception" }
+boost_tuple = { version = "0.1.0", path = "../boost_tuple" }
+boost_type_traits = { version = "0.1.0", path = "../boost_type_traits" }
+boost_typeof = { version = "0.1.0", path = "../boost_typeof" }
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
